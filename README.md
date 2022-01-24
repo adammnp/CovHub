@@ -1,8 +1,6 @@
-# Your Project's Name
+# Covid-19 Interactive Dashboard
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
+This project is essentially an all in one tool for all things covid related. Users are able to dive deep into the data and engage in statistics based on the number of cases, infection rates,etc. Users are also able to learn more about the Covid-19 virus as well as vaccinations as well as opt to receive daily updates about the Covid-19 situation.
  
 ## Design Process
  
