@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Covid-19 Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+    <script src="https://cdn.onemap.sg/leaflet/onemap-leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      
+        <img class ="logo"src ="img/covidlogo.jpg" style ="width=30%"> 
+      
+      <ul>
+        <li><a href = "#Home" > Home </a></li>
+        <li><a href = "#Info"> What is Covid-19? </a></li>
+        <li><a href = "#Vaccinate"> Vaccination </a></li>
+        <li><a href = "#Contact"> Feedback </a></li>
+      </ul>
+    </header>
+    <section class = "banner">
+    </section>
+    <script type = "text/javascript">
+        window.addEventListener("scroll",function(){
+          var header =  document.querySelector("header");
+          header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+     <!-- end of navbar -->
+   <!-- 
+  </div> -->
+        
+    <div class="Container">
+      <aside class="article">
+        Latest News Article about Covid-19
+        <div class="news">
+        </div>
+        <div class="news">
+        </div>
+        <div class="news">
+        </div>
+        </aside>
+        <div>
+          <h1 class='title'>Singapore Map</h1> 
+        <div id='mapdiv' style='height:800px; width : 800px'>
+        </div>
+        </div>
+        </div>
+      </body>
+    <script>
+      var center = L.bounds([1.56073, 104.11475], [1.16, 103.502]).getCenter();
+      var map = L.map('mapdiv').setView([center.x, center.y], 12);
+      var basemap = L.tileLayer('https://maps-{s}.onemap.sg/v3/Default/{z}/{x}/{y}.png', {
+        detectRetina: true,
+        maxZoom: 18,
+        minZoom: 11
+      });
+      map.setMaxBounds([[1.56073, 104.1147], [1.16, 103.502]]);
+      basemap.addTo(map);
+      </script>
+    <div class="Container"style="background-color: rgb(248, 152, 227);">
+  <div class='Stats'></div>
+  <div class='Stats'></div>
+  <div class='Stats'></div>
+  <div class='Stats'></div>
+  </div>
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    
+  </body>
+</html>
