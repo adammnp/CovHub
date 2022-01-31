@@ -21,11 +21,12 @@ $(document).ready(function () {
             let content = "";
 
             for (var i = 0; i < response.length && i < limit; i++) {
-                content = `${content}<section class =".col-md-6 flex-column m"id='${response[i].PostID}'>
+                content = `${content}<section class =".col-md-6 d-flex flex-column justify-content-between m-5 border border-primary w-25"style="height:300px" id='${response[i].PostID}'>
                 <div>${response[i].Username}</div>
                 <div>${response[i].PostContent}</div>
-                <div>${response[i].NumberOfLikes}</div>
+                <div>${response[i].NumberOfLikes}</div></section>
                 `
+                
                 $("#data").html(content);
                 
             }
