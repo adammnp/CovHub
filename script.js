@@ -27,7 +27,7 @@ $(document).ready(function () {
                 <div class="opacity-100">${response[i].Username}</div>
                 <div class="opacity-100">${response[i].PostContent}</div>
                 <div class="opacity-100 likes">${response[i].NumberOfLikes}</div>
-                <button class="btn btn-like">
+                <button class="btn btn-like" id="button${i}" onclick="getId(this)">
                 <span class="btn-icon btn--icon-default">
                     <span class="fa fa-heart"></span>
                 </span>
@@ -41,9 +41,7 @@ $(document).ready(function () {
                     Like
                 </span>
             </button></section>`
-                
-                $("#data").html(content);
-               
+            $("#data").html(content);
             }
 
         })
@@ -51,9 +49,27 @@ $(document).ready(function () {
     }
     
 })
+function myFunction(c) {
+    x = document.getElementById(c);
+    x.btn.classlist.toggle('liked');
+}
+function getId(c){
+    myFunction(c);
+}
 
+/*
 $("#data").on("click",".btn", function(e){
     let NumberOfLikes=$("likes").val();
+    document.querySelectorAll(".btn").forOwn(elem => elem.addEventListener("click",
+    () => {
+    button = document.querySelector('.btn')
+    button.classList.toggle('liked');
+    }));
     $("likes").val(NumberOfLikes+1);
-})
-
+    const button = document.querySelector('.btn')
+    button.addEventListener('click', () => {
+        button.classList.toggle('liked')
+        })
+       
+    button.remove();
+})*/
