@@ -12,22 +12,8 @@ body
 .title{
   font-family :'Poppins' , sans-serif;
 }
-.article{
-  border: blue;
-  flex:1;
-  display: flex;
-  flex-direction: column;
-}
-.news{
-  background-color: white;
-  border: 1px solid rgba(72,94,144,0.16);
-  border-radius: 0.25rem;
-  text-align: center;
-  justify-content: center;
-  height:150px;
-  width:90%;
-  margin:5% 0%;
-}
+
+
 header{
   position : fixed;
   top : 0 ;
@@ -176,4 +162,24 @@ header ul li a {
 }
 .liked .btn-content--default {
   transform: translate(24px)
+}
+.articlebox{
+  position: relative;
+  top:20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 600px;
+  padding: 30px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 15px 50px rgba(0,0,0,.2)
+ 
+}
+
+.article{
+  flex:0.5;
+  display:flex;
+  flex-direction: column; 
+  align-content: stretch
 }
