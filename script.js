@@ -1,3 +1,10 @@
+const togglebutton =document.getElementById("toggle");
+const nav=document.getElementById("hehexd");
+const words=document.getElementsByClassName("wordchange");
+togglebutton.addEventListener('click',()=>{
+  nav.classList.toggle('covid-background-2');
+  nav.classList.toggle('text-white');
+})
 $(document).ready(function () {
     const APIKEY = "61d256e9ccd0211b320894a3";
     getdata();
