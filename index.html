@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
     <script src="https://cdn.onemap.sg/leaflet/onemap-leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   
   </head>
   <body id="hehexd">
     <header>
@@ -59,7 +60,7 @@
         
         <div class="articlebox mt-2">
           <img src = "https://www.businesstimes.com.sg/s3fs-public/styles/680x453/public/image/2022/02/03/paxlovid_pill_by_pfizer_-_reuters.jpg?itok=exqEvTUR" style = "height:200px; width : 545px"/>
-          <h6 class="text-black">Singapore approves its first oral tablet to treat Covid-19 infection</h3>
+          <h6 class="text-black" id = "headline1">Singapore approves its first oral tablet to treat Covid-19 infection</h3>
           <p class="text-black">THE Health Sciences Authority (HSA), in consultation with its Medicines Advisory Committee, has on Jan 31 granted interim authorisation for Pfizer's Paxlovid.This is the first oral tablet approved in Singapore to treat mild to moderate Covid-19 in adult patients who are at high risk of progression to severe disease.</p>
         </div>
         
@@ -71,6 +72,7 @@
         <div id='mapdiv' class="ml-5 mr-5" style='height:800px; width : 800px ; border-radius: 10px; box-shadow: 0 15px 50px white'>
           <iframe src="https://d209m3w127yzkd.cloudfront.net/index.html" style="height:800px; width : 800px; border-radius: 10px;"></iframe>
           <p >Here is a Geospatial data Map comprised of Covid-19 cases all around Singapore. It is frequently up to date as it is being managed by the Ministry of Health (MOH).</p>
+          <p><i>Source : Ministry of Health , Singapore (2022).</i></p>
         </div>
         </div>
         </div>
@@ -78,10 +80,10 @@
       
 
     <div class="Container flex-row-reverse flex-wrap mt-5">
-      <div style="width:100%"><h1 class="text-center">Vaccination Percentage</h1></div>
+      <div style="width:100%"><h1 class="text-center">Vaccination Percentages</h1></div>
       <div class='my-flex-item'><iframe width="600" height="400" src="https://data.gov.sg/dataset/covid-19-case-numbers/resource/3c6c43ca-9703-48e4-a288-0d2d24a1946a/view/9e6597ec-61ed-42d2-ad08-b0281fa491c3" frameBorder="0"> </iframe></div>
       <div class='my-flex-item'><iframe width="600" height="400" src="https://data.gov.sg/dataset/covid-19-case-numbers/resource/60c679fc-8c3c-49dc-beaf-95008619d5df/view/2e07bf3e-fa44-40a2-845a-e1e187a143a6" frameBorder="0"> </iframe></div>
-      <div style="width:100%"><h1 class="text-center">Positive Rate of Covid19</h1></div>
+      <div style="width:100%"><h1 class="text-center">Positivity Rates of Covid-19(2022)</h1></div>
       <div class='my-flex-item'><iframe width="600" height="400" src="https://data.gov.sg/dataset/covid-19-case-numbers/resource/f3e28351-c8f1-4f9c-80e6-a118ee3843a5/view/ddcab414-cf85-423b-8d43-810e5b397fb9" frameBorder="0"> </iframe></div>
       
       <div class='my-flex-item'><iframe width="600" height="400" src="https://data.gov.sg/dataset/covid-19-case-numbers/resource/f3e28351-c8f1-4f9c-80e6-a118ee3843a5/view/1b59d6a2-360e-460c-b367-b5d0bd867982" frameBorder="0"> </iframe></div>
@@ -92,8 +94,12 @@
 
 
 
-
-
+  <footer>
+    <div id="footer-text">
+        Created by Adam Aqif &amp; Chua Ming Feng © 2022 - All Rights Reserved.
+        <div>Data Retrieved from: &nbsp;<img src="img/mohlogo.png" alt="mohlogo" width="90" height="40"></div>
+    </div>
+</footer>
 
 
 
