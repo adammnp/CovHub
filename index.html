@@ -4,11 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Covid-19 Dashboard</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
     <script src="https://cdn.onemap.sg/leaflet/onemap-leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -20,10 +22,10 @@
         <img class ="logo"src ="img/covidlogo.jpg" style ="width:30%"> 
       
       <ul>
-        <li><a href = "#Home" > Home </a></li>
-        <li><a href = "#Info"> What is Covid-19? </a></li>
-        <li><a href = "#Vaccinate"> Vaccination </a></li>
-        <li><a href = "#Contact"> Feedback </a></li>
+        <li><a href = "index.html" > Home </a></li>
+        <li><a href = "Covid19Page.html"> What is Covid-19? </a></li>
+        <li><a href = "Vaccination.html"> Vaccination </a></li>
+        <li><a href = "Feeback.html"> Feedback </a></li>
       </ul>
     </header>
     <section class = "banner">
@@ -41,27 +43,23 @@
     <div class="Container">
        
       <div class= "article">
-        <h2> Latest News Article about Covid-19 </h2> 
+        <h2 class="font-weight-bold mb-5"> Latest News Article about Covid-19 </h2> 
         
         
         
-        <div class="articlebox">
+        <div class="articlebox mt-4">
           <img src="https://static1.straitstimes.com.sg/s3fs-public/styles/large30x20/public/articles/2022/02/04/ag-skcovid-040222.jpg?VersionId=wZcuaXgnzr0B6B1UpiI.QnYTkehFpkpx&itok=uR6IcHOp" style = "height:200px; width : 545px"/>
-          <h3>Singapore in strong position to ease Covid-19 restrictions further, say some experts.</h3>
+          <h6>Singapore in strong position to ease Covid-19 restrictions further, say some experts.</h3>
           <p>Singapore's high vaccination and booster rates give the country a window of opportunity to ease some Covid-19 measures, especially as the Omicron variant causes a less severe form of the disease, suggest several experts.</p>
         </div>
         
         <div class="articlebox mt-2">
           <img src = "https://www.businesstimes.com.sg/s3fs-public/styles/680x453/public/image/2022/02/03/paxlovid_pill_by_pfizer_-_reuters.jpg?itok=exqEvTUR" style = "height:200px; width : 545px"/>
-          <h3>Singapore approves its first oral tablet to treat Covid-19 infection</h3>
+          <h6>Singapore approves its first oral tablet to treat Covid-19 infection</h3>
           <p>THE Health Sciences Authority (HSA), in consultation with its Medicines Advisory Committee, has on Jan 31 granted interim authorisation for Pfizer's Paxlovid.This is the first oral tablet approved in Singapore to treat mild to moderate Covid-19 in adult patients who are at high risk of progression to severe disease.</p>
         </div>
         
-        <div class="articlebox mt-2">
-          <img src = "https://static1.straitstimes.com.sg/s3fs-public/styles/large30x20/public/articles/2022/01/28/yq-sgh-28012022.jpg?VersionId=hek3EQzPwIoLFySJ9kY5EaF60FycvPAu&itok=MRjgKB-Z" style = "height:200px; width : 545px"/>
-          <h3>Singapore hospitals coping well, prepared for any surge in Covid-19 cases</h3>
-          <p>Hospitals here are coping well in spite of the Omicron wave infecting thousands of people daily. Most have resumed business as usual, with all wards open and staff encouraged to take leave.</p>
-        </div>
+       
       </div>
 
         <div class=".col-md-6">
@@ -75,11 +73,13 @@
       </body>
       
 
-    <div class="Container flex-row"style="background-color: rgb(248, 152, 227);">
-  <div class='my-flex-item border rounded'>1</div>
-  <div class='my-flex-item border rounded'>2</div>
-  <div class='my-flex-item border rounded'>3</div>
-  <div class='my-flex-item border rounded'>4</div>
+    <div class="Container flex-row flex-wrap mt-5"style="background-color: rgb(248, 152, 227);">
+      <h1 style="width: 600;">Vaccination Percentage</h1><h1 style="width: 600;">Vaccination Percentage</h1>
+      
+      <div class='my-flex-item'><iframe width="600" height="500" src="https://data.gov.sg/dataset/covid-19-case-numbers/resource/3c6c43ca-9703-48e4-a288-0d2d24a1946a/view/9e6597ec-61ed-42d2-ad08-b0281fa491c3" frameBorder="0"> </iframe></div>
+      <div class='my-flex-item'><iframe width="600" height="500" src="https://data.gov.sg/dataset/covid-19-case-numbers/resource/f3e28351-c8f1-4f9c-80e6-a118ee3843a5/view/ddcab414-cf85-423b-8d43-810e5b397fb9" frameBorder="0"> </iframe></div>
+      <div class='my-flex-item'><iframe width="600" height="400" src="https://data.gov.sg/dataset/covid-19-case-numbers/resource/60c679fc-8c3c-49dc-beaf-95008619d5df/view/2e07bf3e-fa44-40a2-845a-e1e187a143a6" frameBorder="0"> </iframe></div>
+      <div class='my-flex-item'><iframe width="600" height="400" src="https://data.gov.sg/dataset/covid-19-case-numbers/resource/f3e28351-c8f1-4f9c-80e6-a118ee3843a5/view/1b59d6a2-360e-460c-b367-b5d0bd867982" frameBorder="0"> </iframe></div>
   </div>
   
 
@@ -133,6 +133,6 @@
 
 
     <script src="script.js"></script>
-    
+    <!--<script src="statistics.js"></script>-->
   </body>
 </html>
