@@ -1,5 +1,7 @@
 
 
+
+
 $(document).ready(function () {
     
     const APIKEY = "61d256e9ccd0211b320894a3";
@@ -19,7 +21,8 @@ $(document).ready(function () {
         }
             $.ajax(settings).done(function (response) {
                 let content = "";
-                
+                var y = [];
+                var names =[];
                 for (var i = 0; i < response.length && i < limit; i++) {
                     let objectid = `${response[i]._id}`;
                     let postid=`${response[i].PostID}`;
@@ -34,8 +37,36 @@ $(document).ready(function () {
                 data-postid='${response[i].PostID}' data-content='${response[i].PostContent}'
                 data-likes='${response[i].NumberOfLikes}'> Like </a>
             </section>`
+            var number = parseInt(`${response[i].NumberOfLikes}`);
+            y.push(number);
+            names.push(`${response[i].Username}`);
             $("#data").html(content);
                 }
+                let myChart = document.getElementById("myChart").getContext('2d');
+                var chart = new Chart(myChart,{
+                    type: 'bar',
+                    data: 
+                    {
+                      labels: names,
+                      
+                      datasets: 
+                          [{
+                            label:'Number of likes',
+                          backgroundColor: '#337ab7',
+                          data: y,
+                          borderWidth:0.5,
+                          }]
+                    },
+                    options:
+                    {
+                        responsive: true,
+                        maintainAspectRatio:false,
+                        legend: {
+                          display: false,
+                          position: 'top'
+                        }
+                    }
+                  });
             })
         
     }
