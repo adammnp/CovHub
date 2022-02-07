@@ -4,8 +4,21 @@ const words=document.getElementsByClassName("wordchange");
 togglebutton.addEventListener('click',()=>{
   nav.classList.toggle('covid-background-2');
   nav.classList.toggle('text-white');
-})
+})  
 
+var swiper = new Swiper('.blog-slider', {
+    spaceBetween: 30,
+    effect: 'fade',
+    loop: true,
+    mousewheel: {
+      invert: false,
+    },
+    // autoHeight: true,
+    pagination: {
+      el: '.blog-slider__pagination',
+      clickable: true,
+    }
+  });
 
 $(document).ready(function () {
     const APIKEY = "61d256e9ccd0211b320894a3";

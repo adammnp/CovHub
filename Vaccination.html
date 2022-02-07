@@ -10,16 +10,24 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.3/swiper-bundle.css" integrity="sha512-SID9h7gl6DWMEv9gG4Msa2+Cv6Th1HK9Bswoy7ArayNta2hdRkUhhzprlgocF7X+LYH2QiroQVnYloED73SdrA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.3/swiper-bundle.min.js" integrity="sha512-+1MtN0rwSlEnZo0agG99mCQChlBtfe8hyHItwWtgiD33mWvaNVZkZB9yX2S92z5HgDg1+EcitjutZejbHUcZAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Poppins&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <script src="https://cdn.onemap.sg/leaflet/onemap-leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/1269e25e00.js" crossorigin="anonymous"></script>
+
   </head>
     <body id = "hehexd" style="min-height: 100vh;">
         <!--[if lt IE 7]>
@@ -51,129 +59,156 @@
             })
         </script>
         <div class="text-center h1">
-        <td class="text-center m-5 title">Vaccination</td><i class="fas fa-syringe"></i>
-        
+        <b><td class="text-center m-5 title " >Vaccination</td></b> <i class="fas fa-syringe"></i>
+        </div>
       </div>
-        <div class="container border rounded" style="height:100vh;background-color:#f2dcc5">
-            <h2 class="text-center mt-3 text-black">Most commonly asked questions about vaccination</h2>
+        <div class="container rounded" style="height:auto">
+            <h2 class="text-center mt-3">Most commonly asked questions about vaccination</h2>
             <div class="d-flex flex-row justify-content-center m-5">
             <div class="wrapper">
               <!-- Accordion Heading One -->
               <div class="parent-tab">
                 <input type="radio" name="tab" id="tab-1" checked>
                 <label for="tab-1">
-                  <span>Accordion Heading One</span>
+                  <span>Is the vaccine free?</span>
                   <div class="icon"><i class="fas fa-plus"></i></div>
                 </label>
                 <div class="content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+                  <p>The vaccine is free for all Singaporeans and long-term residents in Singapore, which includes Singapore Permanent Residents, and Employment Pass holders.</p>
                 </div>
               </div>
               <!-- Accordion Heading Two -->
               <div class="parent-tab">
                 <input type="radio" name="tab" id="tab-2">
                 <label for="tab-2">
-                  <span>Accordion Heading Two</span>
+                  <span>Who is eligible for the vaccine?</span>
                   <div class="icon"><i class="fas fa-plus"></i></div>
                 </label>
                 <div class="content">
-                  <p class>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+                  <p class>Singapore Citizens, Permanent Residents, and Long-Term Pass Holders aged 5 and above are eligible to receive the COVID-19 vaccines under the National Vaccination Programme.</p>
                 </div>
               </div>
               <!-- Accordion Heading Three -->
               <div class="parent-tab tab-3">
                 <input type="radio" name="tab" id="tab-3">
                 <label for="tab-3" class="tab-3">
-                  <span>Accordion Heading Three</span>
+                  <span>Do I need to register for my booster dose?</span>
                   <div class="icon"><i class="fas fa-plus"></i></div>
                 </label>
                 <div class="content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+                  <p>You will receive an SMS invitation with a personalised link to book your booster dose appointment when you become eligible – about five months after the last dose of your primary series vaccination. Please use it to book an appointment for the booster.</p>
+
+                   <p> If you are aged 18 to 59 and have completed the last dose of your primary series vaccination, but have not yet received your SMS notification from MOH, you may walk in to any Vaccination Centre offering the mRNA COVID-19 vaccine, without an appointment to receive your booster dose.</p>
+                    
+                   <p> If you are aged 60 years and above and have completed the last dose of your primary series vaccination, you may also walk into any of the participating Public Health Preparedness Clinics, or Polyclinics, in addition to the Vaccination Centres, to receive your booster dose without an appointment.</p>
                 </div>
               </div>
               <!-- Accordion Heading Four -->
               <div class="parent-tab">
                 <input type="radio" name="tab" id="tab-6">
                 <label for="tab-6">
-                  <span>Accordion Heading Four</span>
+                  <span>Are the COVID-19 vaccines halal?</span>
                   <div class="icon"><i class="fas fa-plus"></i></div>
                 </label>
                 <div class="content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+                  <p>The Islamic Religious Council of Singapore (MUIS) has permitted COVID-19 vaccines for Muslim use. Please refer to MUIS’ religious position on the COVID-19 vaccine for more information.</p>
                 </div>
               </div>
               <div class="parent-tab">
                 <input type="radio" name="tab" id="tab-7">
                 <label for="tab-7">
-                  <span>Accordion Heading Five</span>
+                  <span>What should I do if I’m experiencing side effects?</span>
                   <div class="icon"><i class="fas fa-plus"></i></div>
                 </label>
                 <div class="content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+                  <p>If you experience a severe allergic reaction, seek medical attention immediately. Call 995 or go to the nearest A&E immediately.</p>
                 </div>
               </div>
               <div class="parent-tab">
                 <input type="radio" name="tab" id="tab-8">
                 <label for="tab-8">
-                  <span>Accordion Heading Six</span>
+                  <span>How will the vaccine be administered?</span>
                   <div class="icon"><i class="fas fa-plus"></i></div>
                 </label>
                 <div class="content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+                  <p>The vaccine will be injected into your upper arm. To make this easier, you are advised to wear short sleeves, or sleeves loose enough to be rolled up.</p>
                 </div>
               </div>
             </div>
             </div>
           </div>
-          <div class="container">
-            <h2>Carousel Example</h2>
-            <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
-                <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
-              </ol>
-          
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                
-                <div class="carousel-item active" data-bs-interval="2000">
-                  <img src="https://www.aljazeera.com/wp-content/uploads/2020/11/2020-11-09T114528Z_401439984_RC2NZJ9UB98H_RTRMADP_3_HEALTH-CORONAVIRUS-VACCINES-PFIZER.jpg?resize=770%2C513" alt="Pfizer" style="width:100%;height:700px">
-                  <div class="carousel-caption bg-black">
-                    <h3>Pfizer</h3>
-                    <p>LA is always so much fun!</p>
+          <!-- Vaccine Slider -->
+        <section id = "allblog" class="p-5">
+          <section id = "blogbody">
+            <div class="blog-slider">
+              <div class="blog-slider__wrp swiper-wrapper">
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    
+                    <img class="img-fluid mw-100"style="object-fit:revert" src="https://bloximages.newyork1.vip.townnews.com/wqow.com/content/tncms/assets/v3/editorial/6/10/610b0185-ea5c-57d7-b03b-448a52b14ba4/614126f66c197.image.jpg" alt="Pfizer">
+                  </div>
+                  <div class="blog-slider__content">
+                    <span class="blog-slider__code">Type of Vaccine</span>
+                    <div class="blog-slider__title">Pfizer</div>
+                    <div class="blog-slider__text">The Pfizer-BioNTech / Comirnaty COVID-19 vaccine protects against COVID-19. The vaccine contains
+                      messenger RNA (mRNA) which helps your immune system to produce protection. The vaccine reduces
+                      the risks of infection and severe disease from COVID-19, and has good protection against the current
+                      virus variants. The vaccine consists of 2 doses taken 21 to 28 days apart but the second dose is still valid
+                      if taken later.</div>
+                    <a href="#" class="blog-slider__button">READ MORE</a>
                   </div>
                 </div>
-          
-                <div class="carousel-item " data-bs-interval="2000">
-                  <img src="https://cdn-japantimes.com/wp-content/uploads/2021/05/np_file_88903.jpeg" alt="Johnson & Johnson's Janssen" style="width:100%;height:700px">
-                  <div class="carousel-caption bg-black">
-                    <h3>Johnson & Johnson's Janssen</h3>
-                    <p>Thank you, Chicago!</p>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img class="img-fluid mw-100" style="object-fit:revert" src="https://www.pharmaceutical-technology.com/wp-content/uploads/sites/24/2021/05/Moderna-vaccine.jpg" alt="Moderna">
+                  </div>
+                  <div class="blog-slider__content">
+                    <span class="blog-slider__code">Type of Vaccine</span>
+                    <div class="blog-slider__title">Moderna</div>
+                    <div class="blog-slider__text">The Moderna COVID-19 vaccine protects against COVID-19. The vaccine contains messenger RNA
+                      (mRNA) which helps your immune system to produce protection. The vaccine reduces the risks of
+                      infection and severe disease from COVID-19, and has good protection against the current virus variants.
+                      The vaccine consists of 2 doses taken 28 days apart, but the second dose is still valid if taken later.</div>
+                    <a href="#" class="blog-slider__button">READ MORE</a>
+                  </div>
+                </div>
+                
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img class="img-fluid mw-100" style="object-fit:revert" src="https://static.theprint.in/wp-content/uploads/2021/09/Covid-1.jpg?compress=true&quality=80&w=376&dpr=2.6" alt="Sinovac">
+                  </div>
+                  <div class="blog-slider__content">
+                    <span class="blog-slider__code">Type of Vaccine</span>
+                    <div class="blog-slider__title">SinoVac</div>
+                    <div class="blog-slider__text">The SinoVac COVID-19 vaccine protects against COVID-19. The vaccine contains messenger RNA
+                      (mRNA) which helps your immune system to produce protection. The vaccine reduces the risks of
+                      infection and severe disease from COVID-19, and has good protection against the current virus variants.
+                      The vaccine consists of 2 doses taken 28 days apart, but the second dose is still valid if taken later.</div>
+                    <a href="#" class="blog-slider__button">READ MORE</a>
                   </div>
                 </div>
               
-                <div class="carousel-item "data-bs-interval="2000">
-                  <img src="https://www.openaccessgovernment.org/wp-content/uploads/2021/03/dreamstime_s_203247337.jpg" alt="Moderna" style="width:100%;height:700px">
-                  <div class="carousel-caption bg-black">
-                    <h3>Moderna</h3>
-                    <p>We love the Big Apple!</p>
-                  </div>
-                </div>
               </div>
-          
-              <!-- Left and right controls -->
-              <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a  href="#myCarousel" class="carousel-control-next "data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-                <span class="sr-only">Next</span>
-              </a>
+              <div class="blog-slider__pagination"></div>
             </div>
-          </div>
-          <script src="script.js"></script>
+          </section>
+      </section>
+      <div class="container w-100 p-5">
+        <div class="d-flex flex-row justify-content-around">
+          <img class="w-25"style="height:10%;margin-top:6%" src="https://images-ext-2.discordapp.net/external/qOh56ATCvIClXKiZCk_329lpr6RJQVpd6Gh8jlQnUzM/https/www.moh.gov.sg/images/librariesprovider5/logo/vaccinationsg-logo_coloured-version.jpg?width=1368&height=203">
+          <img class="w-25"style="height:153px" src="https://media.discordapp.net/attachments/848792060588851212/940192033287581727/vaccinationlogo.png">
+          <img class="w-25"style="height:10%" src="https://www.cdc.gov/coronavirus/2019-ncov/images/vaccines/home/vaccine-we-can-do-sticker.jpg?_=42113">
+        </div>
+      </div>
+      
+
+  <footer>
+    <div id="footer-text">
+        Created by Adam Aqif &amp; Chua Ming Feng © 2022 - All Rights Reserved.
+        <div>Data Retrieved from: &nbsp;<img src="img/mohlogo.png" alt="mohlogo" width="90" height="40"></div>
+    </div>
+</footer>
+
+        <script src="script.js"></script>
     </body>
 </html>
