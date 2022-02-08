@@ -255,8 +255,9 @@ header ul li a {
 }
 .parent-tab input:checked ~ label .icon i:before,
 .child-tab input:checked ~ label .icon i:before{
-  content: '\f068';
+  content: "\f056";
 }
+
 .wrapper .parent-tab .content,
 .wrapper .child-tab .sub-content{
   max-height: 0px;
