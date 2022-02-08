@@ -390,7 +390,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: #FCFDFF;
+
   background-attachment: fixed;
   top: 20px;
 }
@@ -444,10 +444,10 @@ footer {
   font-weight: 500;
 }
 .contactForm{
+  background-color: #FCFDFF;
   width: 40%;
   padding: 40px;
   border-radius:5% ;
-  background: #fff;
 }
 .contactForm h2 {
   font-size: 30px;
@@ -747,4 +747,11 @@ footer {
     height: 11px;
     width: 30px;
   }
+}
+.animation{
+  display: none;
+}
+.vertical{
+  border-left: 5px solid orange;
+            height: 250px;
 }
