@@ -756,3 +756,9 @@ footer {
   border-left: 5px solid orange;
             height: 250px;
 }
+/* Gold */
+.bleh:nth-child(1) {background: gold;}
+/* Silver */
+.bleh:nth-child(2) {background: #c0c0c0;}
+/* Bronze */
+.bleh:nth-child(3) {background: #cd7f32;}
