@@ -31,12 +31,15 @@ The goal of this website is to be a hub for all things COVID-19 related so that 
 - [JavaScript]
 - [FontAwesome](https://fontawesome.com/versions)
     - The project uses **FontAwesome** for the various icons used.
+
 - [BGJar](https://bgjar.com/)
-      - The project uses **BGJar** for the backgrounds used.
--[CSSGradient](https://cssgradient.io/color-shades/)
-     - The project uses **CSSGradient** for the gradients used.
--[BootStrap](https://getbootstrap.com/)
-     - The project uses **BootStrap** for the layout formattings.
+    - The project uses **BGJar** for the backgrounds used.
+
+- [CSSGradient](https://cssgradient.io/color-shades/)
+    - The project uses **CSSGradient** for the gradients used.
+
+- [BootStrap](https://getbootstrap.com/)
+    - The project uses **BootStrap** for the layout formattings.
     
 ## Testing
 1. Contact form:
