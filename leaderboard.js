@@ -62,12 +62,9 @@ $(document).ready(function () {
                 let pc=`${response[i].PostContent}`;
                 let nol = `${response[i].NumberOfLikes}`;
                     content = `${content}<section class =".col-md-6 d-flex flex-column justify-content-between m-5 border bg-white border-primary rounded w-25" style="height:300px;opacity:0.9" id='${response[i].PostID}'>
-                <div class="opacity-100">${response[i].Username}</div>
-                <div class="opacity-100">${response[i].PostContent}</div>
+                <div class="h3 opacity-100">${response[i].Username}</div>
+                <div class="h5 opacity-100">${response[i].PostContent}</div>
                 <div class="opacity-100 likes">${response[i].NumberOfLikes}</div>
-                <a href="#clickedlike" class="button" data-id='${response[i]._id}' data-user='${response[i].Username}' 
-                data-postid='${response[i].PostID}' data-content='${response[i].PostContent}'
-                data-likes='${response[i].NumberOfLikes}'> Like </a>
             </section>`
             scores.push({name:`${response[i].Username}`,score:`${response[i].NumberOfLikes}`})
             $("#data").html(content);

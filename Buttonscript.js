@@ -33,9 +33,6 @@ $(document).ready(function () {
                 <div class="opacity-100">${response[i].Username}</div>
                 <div class="opacity-100">${response[i].PostContent}</div>
                 <div class="opacity-100 likes">${response[i].NumberOfLikes}</div>
-                <a href="#clickedlike" class="button" data-id='${response[i]._id}' data-user='${response[i].Username}' 
-                data-postid='${response[i].PostID}' data-content='${response[i].PostContent}'
-                data-likes='${response[i].NumberOfLikes}'> Like </a>
             </section>`
             var number = parseInt(`${response[i].NumberOfLikes}`);
             y.push(number);

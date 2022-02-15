@@ -46,23 +46,10 @@ $(document).ready(function () {
             
             for (var i = 0; i < response.length && i < limit; i++) {
                 content = `${content}<section class =".col-md-6 d-flex flex-column justify-content-between m-5 border bg-white border-primary rounded w-25" style="height:300px;opacity:0.9" id='${response[i].PostID}'>
-                <div class="opacity-100 name">${response[i].Username}</div>
-                <div class="opacity-100">${response[i].PostContent}</div>
+                <div class="opacity-100 h3 name">${response[i].Username}</div>
+                <div class="opacity-100 h5">${response[i].PostContent}</div>
                 <div class="opacity-100 likes">${response[i].NumberOfLikes}</div>
-                <button class="btn btn-like" id="button${i}" onclick="getId(this)">
-                <span class="btn-icon btn--icon-default">
-                    <span class="fa fa-heart"></span>
-                </span>
-                <span class="btn-icon btn--icon-liked">
-                    <span class="fa fa-heart"></span>
-                </span>
-                <span class="btn-content  btn-content--liked">
-                    Liked
-                </span>
-                <span class="btn-content btn-content--default">
-                    Like
-                </span>
-            </button></section>`
+                </section>`
             $("#data").html(content);
             }
 
