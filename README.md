@@ -10,6 +10,7 @@ This project made use of RestDB to input the like count as well as retrieve it t
 
 The goal of this website is to be a hub for all things COVID-19 related so that users are able to learn a thing or two about the pandemic as well as keep updated through articles, charts and the data map so they become more aware such as which places are more concentrated with infections and etc.
 
+The wireframe diagram is included in the repository files. 
 ## Features
 
 -Navigation bar which allows seamless navigation through the different pages.
