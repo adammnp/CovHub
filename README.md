@@ -41,7 +41,12 @@ The wireframe diagram is included in the repository files.
 
 - [BootStrap](https://getbootstrap.com/)
     - The project uses **BootStrap** for the layout formattings.
-    
+- [ChartJS](https://www.chartjs.org/)
+    - The project uses **Chart.js** for the chart formattings.    
+- [SwiperJS](https://swiperjs.com/get-started)
+    - The project uses **Swiper** for the Vaccine carousel.  
+- [Lottie](https://lottiefiles.com/)
+    - The project uses **Lottie** for the Animation.  
 ## Testing
 1. Contact form:
     1. Go to the "Contact Us" page
