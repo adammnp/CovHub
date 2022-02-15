@@ -4,60 +4,58 @@ This project is essentially an all in one tool for all things covid related. Use
  
 ## Design Process
  
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This website is made to allow anybody to gain insight on anything COVID-19 related such as Data Maps , articles , Vaccination Informations as well as a thread page for users to give their own input on the situation to spur discussions and/or reminders.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+This project made use of RestDB to input the like count as well as retrieve it to display it on the Leaderboards feature. It also gathers the comments and discussions as well.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+The goal of this website is to be a hub for all things COVID-19 related so that users are able to learn a thing or two about the pandemic as well as keep updated through articles, charts and the data map so they become more aware such as which places are more concentrated with infections and etc.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+-Navigation bar which allows seamless navigation through the different pages.
+- News section where users are able to read up on latest news regarding the COVID-19 situation in Singapore.
+- COVID-19 Data Map where users are able to find locations all around Singapore as well as the recorded number of cases in the respective location.
+- Data charts which inform the users the effectiveness of the vaccines based on infection rates and vaccination rates.
+- COVID-19 information section where users can find the DO's and DON'TS of the pandemic as well as what the COVID-19 Virus is.
+- Vaccination Q&A menu where users are able to find the most frequently asked questions about the vaccines.
+- Vaccine information centre where users are able to find out more about the different types of vaccines. 
+- Contact form so users are able to give feedback or messages to us.
+- Light/dark mode slider so users are able to change the theme accordingly to their preference.
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
-
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
-
-
+- [HTML]
+- [CSS]
+- [JavaScript]
+- [FontAwesome](https://fontawesome.com/versions)
+    - The project uses **FontAwesome** for the various icons used.
+- [BGJar](https://bgjar.com/)
+    - The project uses **BGJar** for the backgrounds used.
+-[CSSGradient](https://cssgradient.io/color-shades/)
+    - The project uses **CSSGradient** for the gradients used.
+-[BootStrap](https://getbootstrap.com/)
+    - The project uses **BootStrap** for the layout formattings.
+    
 ## Testing
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
 1. Contact form:
     1. Go to the "Contact Us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for newspaper article sections was retrieved from Straits Times / South Morning China Post / CNA sites respectively.
+- The vaccination informations were retrieved from the MOH website.
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained Ministry of Health (MOH) Singapore.
+- The data was retrieved from Data.Gov.Sg
 
 ### Acknowledgements
-
-- I received inspiration for this project from X
+- Received inspiration from the various government websites pertaining to the COVID-19 topic.
