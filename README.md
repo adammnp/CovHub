@@ -13,7 +13,7 @@ The goal of this website is to be a hub for all things COVID-19 related so that 
 The wireframe diagram is included in the repository files. 
 ## Features
 
--Navigation bar which allows seamless navigation through the different pages.
+- Navigation bar which allows seamless navigation through the different pages.
 - News section where users are able to read up on latest news regarding the COVID-19 situation in Singapore.
 - COVID-19 Data Map where users are able to find locations all around Singapore as well as the recorded number of cases in the respective location.
 - Data charts which inform the users the effectiveness of the vaccines based on infection rates and vaccination rates.
