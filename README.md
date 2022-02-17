@@ -68,3 +68,6 @@ The wireframe diagram is included in the repository files.
 
 ### Acknowledgements
 - Received inspiration from the various government websites pertaining to the COVID-19 topic.
+
+### github deployment link
+- https://adammnp.github.io/CovHub/
