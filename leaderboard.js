@@ -19,7 +19,7 @@
      let scoreRow = document.createElement("div");
      scoreRow.classList.add("d-flex");
      scoreRow.classList.toggle("flex-row");
-     scoreRow.classList.toggle("w-25");
+     scoreRow.classList.toggle("w-75");
      scoreRow.classList.toggle("mb-5");
      scoreRow.classList.toggle("bleh");
      scoreRow.classList.toggle("rounded-pill");
