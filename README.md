@@ -27,9 +27,9 @@ The wireframe diagram is included in the repository files.
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
-- [HTML]
-- [CSS]
-- [JavaScript]
+- HTML
+- CSS
+- JavaScript
 - [FontAwesome](https://fontawesome.com/versions)
     - The project uses **FontAwesome** for the various icons used.
 
